@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* css document*/
+body{
+	
+	font-family: "Microsoft YaHei";
+}
+img{ width: 100%;}
+.top{ width: 100%; background: #333333;}
+.top .container1{ max-width: 1000px; min-width: 320px; margin: 0 auto;}
+.top .container1 header>.logo{ width: 171px; padding-top: 11px; float: left; margin-right: 80px;}
+.top .container1 header>nav{ width: 730px; float: left;}
+.top .container1 header>nav>ul li{ width: 94px; float: left; line-height: 80px; height: 80px; text-align: center;}
+.top .container1 header>nav>ul li:nth-of-type(1){ width: 65px;}
+.top .container1 header>nav>ul li:nth-of-type(6){ background: #5c5c5c;}
+.top .container1 header>nav>ul li>a{ color: #fdfdff; font-size: 14px; display: block; font-family: "Microsoft YaHei";}
+.top .container1 header>nav>ul li:hover a{ background: #5c5c5c;}
+.content{ width: 100%;}
+.content .container2{ max-width: 1000px; min-width: 320px; margin: 0 auto;}
+.container2>h4{ text-align: center; font-size: 30px; color: #000000; font-weight: bold; margin-top: 47px;}
+.container2>p{ font-size: 24px; text-align: center;  margin-top: 19px; color: #888888;}
+.container2>ul{ margin-top: 57px;}
+.container2>ul li{ width: 220px; height: 801px; float: left; margin-right: 35px;}
+.container2>ul li:nth-of-type(4){ margin-right: 0;}
+.container2>ul li:nth-of-type(8){ margin-right: 0;}
+.container2>ul li:nth-of-type(12){ margin-right: 0;}
+.container2>ul li>.aide>p{ color: #888; line-height: 24px; margin-top: 16px; text-indent: 28px; font-size: 14px;}
+.container2>ul li>.aide>h5{ display: block; font-size: 18px; font-weight: bold; color: #888; margin-top: 5px;}
+.container2>ul li>.aide>span{color: #888; line-height: 24px; margin-top: 1px; font-size: 14px;}
+.container2>ul li  .aide .small{ display: none;}
+footer{ width: 100%; background: #333333;}
+footer>.container3{ max-width: 1000px; min-width: 320px; margin: 0 auto;}
+.container3>ul li{ float: left; width: 220px; padding-top: 40px; padding-bottom: 91px; line-height: 29px;}
+.container3>ul li:nth-of-type(4){ width: 265px;}
+.container3>ul li>span{ color:#FFF ; font-size:14px; text-align: left; display: block;}
+@media screen and (max-width:1000px ) and (min-width:720px) {
+.top .container1 header>.logo{ width: 17.1%; padding-top: 1.5%; float: left; margin-right: 7.5%; margin-left: 4%;}
+.top .container1 header>nav{  width: 70%;}	
+.top .container1 header>nav>ul li{ width: 12%; float: left; text-align: center;}
+.top .container1 header>nav>ul li:nth-of-type(1){ width: 8.5%;}
+.top .container1 header>nav>ul li:hover a{ background: none;}
+.container2>ul{ margin-top: 5.7%; padding-left: 2%; padding-right: 1.5%; width: 96.5%;}
+.container2>ul li{ width: 31%; float: left; margin-right: 3%;}
+.container2>ul li:nth-of-type(4){ margin-right: 3%;}
+.container2>ul li:nth-of-type(8){ margin-right: 3%;}
+.container2>ul li:nth-of-type(3){ margin-right: 0;}
+.container2>ul li:nth-of-type(6){ margin-right: 0;}
+.container2>ul li:nth-of-type(9){ margin-right: 0;}
+.container2>ul li:nth-of-type(12){ margin-right: 0;}
+.container2>ul li>.aide>p{ color: #888; line-height: 24px; margin-top: 16px; text-indent: 28px; font-size: 14px;}
+.container2>ul li>.aide>h5{ display: block; font-size: 18px; font-weight: bold; color: #888; margin-top: 5px;}
+.container2>ul li>.aide>span{color: #888; line-height: 24px; margin-top: 1px; font-size: 14px;}
+.container3>ul{ width: 90%; padding-right: 5%; padding-left: 5%;}
+.container3>ul li{ width: 50%; padding-bottom: 0; padding-top: 0;}
+.container3>ul li>span{ display: block; margin-left: 67px;}
+.container3>ul li:nth-of-type(1){ padding-top: 4.9%; padding-bottom: 3.5%;  }
+.container3>ul li:nth-of-type(2){ padding-top: 4.9%; padding-bottom: 3.5%;}
+.container3>ul li:nth-of-type(3){ padding-top: 0; padding-bottom: 3.5%; }
+.container3>ul li:nth-of-type(4){ padding-top: 0; padding-bottom: 3.5%;}
+.container3>ul li:nth-of-type(4){ width:50%;}
+}
+@media screen and (max-width:720px ) and (min-width:480px) {
+.top .container1 header>.logo{ width: 23%; padding-top: 1.5222%; float: left; margin-left: 4%;}
+.top .container1 header{ position: relative;}
+.top .container1 header>nav{ display: none;}
+.top .container1 header>.design{ display: block; position: absolute; top: 40%; left: 47%; color: #FFFFFF; font-size: 16px;}	
+.top .container1 header>.pop_button{ display: block;  width: 25px; height: 15px; position: relative; position: absolute; top: 40%; right: 10%; cursor: pointer;}
+.top .container1>.nav>ul{ width: 100%;}
+.top .container1>.nav>ul li{ width:25% ; float: left; text-align: center; margin-bottom: 10px;}
+.top .container1>.nav>ul li>a{ display: block; color: #9D9D89; font-size: 14px;}
+.top .container1>.nav>ul li>a:hover{ color: #FFFFFF;}
+.container2>ul{ margin-top: 5%; padding-left: 2%; padding-right: 1.5%; width: 96.5%;}
+.container2>ul li{ width: 31%; float: left; margin-right: 3%; height: auto; padding-bottom: 10px;}
+.container2>ul li:nth-of-type(4){ margin-right: 3%;}
+.container2>ul li:nth-of-type(8){ margin-right: 3%;}
+.container2>ul li:nth-of-type(3){ margin-right: 0;}
+.container2>ul li:nth-of-type(6){ margin-right: 0;}
+.container2>ul li:nth-of-type(9){ margin-right: 0;}
+.container2>ul li:nth-of-type(12){ margin-right: 0;}
+/*.container2>ul li>.aide{ color: #888; line-height: 24px; margin-top: 16px; text-indent: 28px; font-size: 14px;}
+.container2>ul li>h5{ display: block; font-size: 18px; font-weight: bold; color: #888; margin-top: 5px;}
+.container2>ul li>span{color: #888; line-height: 24px; margin-top: 1px; font-size: 14px;}*/
+.container2>ul li>.aide{display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 9999; width: 92%; background: #FFFFFF;}
+.container2>ul li.hover:before{ content: ''; display: block; width: 100%; height: 100%; background: #000000; opacity: .7; z-index: 999; position: fixed; top: 0; left: 0;}
+.container2>ul li.hover div.aide{ display: block; padding: 10px;}
+.container2>ul li.hover .aide .small{ width: 150px; display: block; float: right; margin: 10px;}
+.container3>ul{ width:95%; padding:0 0 0 5%;}
+.container3>ul>li{ width:40%; padding:20px 0;}
+.container3>ul>li:nth-of-type(1),.container3>ul>li:nth-of-type(2){padding:30px 0 0 0;}
+.container3>ul li:nth-of-type(2n){width:60%;}
+}
+@media screen and (max-width:480px) {
+.top .container1 header>.logo{ width: 24%; padding-top: 1.4%; float: left; margin-left: 4%;}
+.top .container1 header{ position: relative;}
+.top .container1 header>nav{ display: none;}
+.top .container1 header>.design{ display: block; position: absolute; top: 29%; left: 47%; color: #FFFFFF; font-size: 16px;}	
+.top .container1 header>.pop_button{ display: block;  width: 25px; height: 15px; position: relative; position: absolute; top: 29%; right: 10%; cursor: pointer;}
+.top .container1>.nav>ul{ width: 100%;}
+.top .container1>.nav>ul li{ width:25% ; float: left; text-align: center; margin-bottom: 10px;}
+.top .container1>.nav>ul li>a{ display: block; color: #9D9D89; font-size: 14px;}
+.top .container1>.nav>ul li>a:hover{ color: #FFFFFF;}
+.container2>ul{ margin-top: 5%; padding-left: 2%; padding-right: 1.5%; width: 96.5%;}
+.container2>ul li{ width: 48%; float: left; margin-right: 3%; height: auto; padding-bottom: 10px;}
+.container2>ul li:nth-of-type(2){ margin-right: 0;}
+.container2>ul li:nth-of-type(4){ margin-right: 0;}
+.container2>ul li:nth-of-type(8){ margin-right: 0;}
+.container2>ul li:nth-of-type(3){ margin-right: 3%;}
+.container2>ul li:nth-of-type(6){ margin-right: 0;}
+.container2>ul li:nth-of-type(9){ margin-right: 3%;}
+.container2>ul li:nth-of-type(10){ margin-right: 0;}
+.container2>ul li:nth-of-type(12){ margin-right: 0;}
+/*.container2>ul li>.aide{ color: #888; line-height: 24px; margin-top: 16px; text-indent: 28px; font-size: 14px;}
+.container2>ul li>h5{ display: block; font-size: 18px; font-weight: bold; color: #888; margin-top: 5px;}
+.container2>ul li>span{color: #888; line-height: 24px; margin-top: 1px; font-size: 14px;}*/
+.container2>ul li>.aide{display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 9999; width: 92%; background: #FFFFFF;}
+.container2>ul li.hover:before{ content: ''; display: block; width: 100%; height: 100%; background: #000000; opacity: .7; z-index: 999; position: fixed; top: 0; left: 0;}
+.container2>ul li.hover div.aide{ display: block; padding: 10px;}
+.container2>ul li.hover .aide .small{ width: 150px; display: block; float: right; margin: 10px;}
+.container3>ul{ margin-left: 25%;}
+.container3>ul li{ width: 100%;}
+.container3>ul li:nth-of-type(1){ padding-top: 20px; padding-bottom: 2%;}
+.container3>ul li:nth-of-type(2){ padding-top: 0; padding-bottom: 2%;}
+.container3>ul li:nth-of-type(3){ padding-top: 0; padding-bottom: 2%;}
+.container3>ul li:nth-of-type(4){ padding-top: 0; padding-bottom: 20px;}	
+}
+

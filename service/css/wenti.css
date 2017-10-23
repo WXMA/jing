@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* css document*/
+body{
+	overflow-x: hidden;
+	font-family: "Microsoft YaHei";
+}
+img{ width: 100%;}
+.top{ width: 100%; background: #333333;}
+.top .container1{ max-width: 1000px; min-width: 320px; margin: 0 auto;}
+.top .container1 header>.logo{ width: 171px; padding-top: 11px; float: left; margin-right: 80px;}
+.top .container1 header>nav{ width: 730px; float: left;}
+.top .container1 header>nav>ul li{ width: 94px; float: left; line-height: 80px; height: 80px; text-align: center;}
+.top .container1 header>nav>ul li:nth-of-type(1){ width: 65px;}
+.top .container1 header>nav>ul li:nth-of-type(7){ background: #5c5c5c;}
+.top .container1 header>nav>ul li>a{ color: #fdfdff; font-size: 14px; display: block; font-family: "Microsoft YaHei";}
+.top .container1 header>nav>ul li:hover a{ background: #5c5c5c;}
+.concent{ width: 100%;}
+.concent .container2{ max-width: 1000px; min-width: 320px; margin: 0 auto; padding-bottom: 60px;}
+.container2>aside{ width: 266px; float: left; margin-top: 40px; height: 81px;}
+.container2>aside>ul{ border-right: 1px solid #bababa;}
+.container2>aside>ul li{ width: 249px;  border-bottom: 4px solid white; line-height: 77px;}
+.container2>aside>ul li:nth-of-type(1){ background: url(../img/service_03.jpg) no-repeat 20px 23px; }
+.container2>aside>ul li:nth-of-type(2){ background: url(../img/service_06.jpg) no-repeat 20px 20px; border-bottom: 4px solid #fa9634;}
+.container2>aside>ul li:nth-of-type(3){ background: url(../img/service_08.jpg) no-repeat 20px 23px;}
+.container2>aside>ul li:nth-of-type(4){ background: url(../img/service_10.jpg) no-repeat 20px 23px;}
+.container2>aside>ul li>a{ display: block;  padding-left: 70px;  font-size: 22px; color: #222;}
+.container2>aside>ul li:nth-of-type(1):hover{ background: url(../img/service_04.jpg) no-repeat 20px 23px; border-bottom: 4px solid #fa9634;}
+.container2>aside>ul li:nth-of-type(3):hover{ background: url(../img/service_09.jpg) no-repeat 20px 23px; border-bottom: 4px solid #fa9634;}
+.container2>aside>ul li:nth-of-type(4):hover{ background: url(../img/service_11.jpg) no-repeat 20px 23px; border-bottom: 4px solid #fa9634;}
+.container2>section{ float: left; margin-top: 40px; margin-left: 40px; width: 675px; padding-bottom: 40px;}
+section>h4{ font-size: 18px; line-height: 50px; font-weight: bold; color: #fa9634;}
+section>h5{ font-size: 16px; color: #222222; font-weight: bold;}
+section>h6{ font-size: 16px; font-weight: bold;  margin-top: 10px; }
+section>p{ font-size: 16px;  line-height: 30px;  color: #000000;}
+footer{ width: 100%; background: #333333;}
+footer>.container3{ max-width: 1000px; min-width: 320px; margin: 0 auto;}
+.container3>ul li{ float: left; width: 220px; padding-top: 40px; padding-bottom: 91px; line-height: 29px;}
+.container3>ul li:nth-of-type(4){ width: 265px;}
+.container3>ul li>span{ color:#FFF ; font-size:14px; text-align: left; display: block;}
+@media screen and (max-width:1000px ) and (min-width:720px) {
+.top .container1 header>.logo{ width: 17.1%; padding-top: 1.5%; float: left; margin-right: 7.5%; margin-left: 4%;}
+.top .container1 header>nav{  width: 70%;}	
+.top .container1 header>nav>ul li{ width: 12%; float: left; text-align: center;}
+.top .container1 header>nav>ul li:nth-of-type(1){ width: 8.5%;}
+.top .container1 header>nav>ul li:hover a{ background: none;}
+.container2>aside{ width: 26.6%;}
+.container2>aside>ul{ padding-left: 5%; width: 95%;}
+.container2>aside>ul li{ width: 90%; cursor: pointer;}
+.container2>section{ float: left; margin-top: 40px; margin-left: 3%; width: 69%; padding-bottom: 40px;}
+.container3>ul{ width: 90%; padding-right: 5%; padding-left: 5%;}
+.container3>ul li{ width: 50%; padding-bottom: 0; padding-top: 0;}
+.container3>ul li>span{ display: block; margin-left: 67px;}
+.container3>ul li:nth-of-type(1){ padding-top: 4.9%; padding-bottom: 3.5%;  }
+.container3>ul li:nth-of-type(2){ padding-top: 4.9%; padding-bottom: 3.5%;}
+.container3>ul li:nth-of-type(3){ padding-top: 0; padding-bottom: 3.5%; }
+.container3>ul li:nth-of-type(4){ padding-top: 0; padding-bottom: 3.5%;}
+.container3>ul li:nth-of-type(4){ width:50%;}
+}
+@media screen and (max-width:720px ) and (min-width:480px) {
+.top .container1 header>.logo{ width: 23%; padding-top: 1.5222%; float: left; margin-left: 4%;}
+.top .container1 header{ position: relative;}
+.top .container1 header>nav{ display: none;}
+.top .container1 header>.design{ display: block; position: absolute; top: 40%; left: 47%; color: #FFFFFF; font-size: 16px;}	
+.top .container1 header>.pop_button{ display: block;  width: 25px; height: 15px; position: relative; position: absolute; top: 40%; right: 10%; cursor: pointer;}
+.top .container1>.nav>ul{ width: 100%;}
+.top .container1>.nav>ul li{ width:25% ; float: left; text-align: center; margin-bottom: 10px;}
+.top .container1>.nav>ul li>a{ display: block; color: #9D9D89; font-size: 14px;}
+.top .container1>.nav>ul li>a:hover{ color: #FFFFFF;}
+.container2>aside{ width: 100%; clear: both;}
+.container2>aside>ul{border-right: none; }
+.container2>aside>ul li{ float: left; cursor: pointer; width: 25%; line-height: 0px; text-align: center;}
+.container2>aside>ul li:nth-of-type(1){ background: url(../img/service_03.jpg) no-repeat 50% 0px; }
+.container2>aside>ul li:nth-of-type(2){ background: url(../img/service_06.jpg) no-repeat 50% 0px; border-bottom: none;}
+.container2>aside>ul li:nth-of-type(3){ background: url(../img/service_08.jpg) no-repeat 50% 0px;}
+.container2>aside>ul li:nth-of-type(4){ background: url(../img/service_10.jpg) no-repeat 50% 0px;}
+.container2>aside>ul li>a{ padding-left: 0; padding-top: 70px; font-size: 20px;}
+.container2>aside>ul li:nth-of-type(1):hover{ background: url(../img/service_04.jpg) no-repeat 50% 0px; border-bottom: none;}
+.container2>aside>ul li:nth-of-type(3):hover{ background: url(../img/service_09.jpg) no-repeat 50% 0px; border-bottom: none;}
+.container2>aside>ul li:nth-of-type(4):hover{ background: url(../img/service_11.jpg) no-repeat 50% 0px; border-bottom: none;}
+.container2>section{ clear: both; margin-top: 5%; margin-left: 0; width: 95%; padding-bottom: 40px; padding-left: 3%; padding-right: 2%;}
+.container2>section>p{ text-indent: 30px;}
+.container2>section>h5{ text-indent: 15px;}
+.container2>section>h6{ text-indent: 24px; margin-bottom: 10px; margin-top: 10px;}
+.container3>ul{ width:95%; padding:0 0 0 5%;}
+.container3>ul>li{ width:40%; padding:20px 0;}
+.container3>ul>li:nth-of-type(1),.container3>ul>li:nth-of-type(2){padding:30px 0 0 0;}
+.container3>ul li:nth-of-type(2n){width:60%;}
+}
+@media screen and (max-width:480px) {
+.top .container1 header>.logo{ width: 24%; padding-top: 1.4%; float: left; margin-left: 4%;}
+.top .container1 header{ position: relative;}
+.top .container1 header>nav{ display: none;}
+.top .container1 header>.design{ display: block; position: absolute; top: 29%; left: 47%; color: #FFFFFF; font-size: 16px;}	
+.top .container1 header>.pop_button{ display: block;  width: 25px; height: 15px; position: relative; position: absolute; top: 29%; right: 10%; cursor: pointer;}
+.top .container1>.nav>ul{ width: 100%;}
+.top .container1>.nav>ul li{ width:25% ; float: left; text-align: center; margin-bottom: 10px;}
+.top .container1>.nav>ul li>a{ display: block; color: #9D9D89; font-size: 14px;}
+.top .container1>.nav>ul li>a:hover{ color: #FFFFFF;}
+.container2>aside{ width: 100%; clear: both;}
+.container2>aside>ul{border-right: none; }
+.container2>aside>ul li{ float: left; cursor: pointer; width: 25%; line-height: 0px; text-align: center;}
+.container2>aside>ul li:nth-of-type(1){ background: url(../img/service_03.jpg) no-repeat 50% 0px; }
+.container2>aside>ul li:nth-of-type(2){ background: url(../img/service_06.jpg) no-repeat 50% 0px; border-bottom: none;}
+.container2>aside>ul li:nth-of-type(3){ background: url(../img/service_08.jpg) no-repeat 50% 0px;}
+.container2>aside>ul li:nth-of-type(4){ background: url(../img/service_10.jpg) no-repeat 50% 0px;}
+.container2>aside>ul li>a{ padding-left: 0; padding-top: 70px; font-size: 18px;}
+.container2>aside>ul li:nth-of-type(1):hover{ background: url(../img/service_04.jpg) no-repeat 50% 0px; border-bottom: none;}
+.container2>aside>ul li:nth-of-type(3):hover{ background: url(../img/service_09.jpg) no-repeat 50% 0px; border-bottom: none;}
+.container2>aside>ul li:nth-of-type(4):hover{ background: url(../img/service_11.jpg) no-repeat 50% 0px; border-bottom: none;}
+.container2>section{ clear: both; margin-top: 5%; margin-left: 0; width: 95%; padding-bottom: 40px; padding-left: 3%; padding-right: 2%;}
+.container2>section>p{ text-indent: 25px;}
+.container2>section>h5{ text-indent: 15px;}
+.container2>section>h6{ text-indent: 24px; margin-bottom: 10px; margin-top: 10px;}
+.container3>ul{ margin-left: 25%;}
+.container3>ul li{ width: 100%;}
+.container3>ul li:nth-of-type(1){ padding-top: 20px; padding-bottom: 2%;}
+.container3>ul li:nth-of-type(2){ padding-top: 0; padding-bottom: 2%;}
+.container3>ul li:nth-of-type(3){ padding-top: 0; padding-bottom: 2%;}
+.container3>ul li:nth-of-type(4){ padding-top: 0; padding-bottom: 20px;}	
+}

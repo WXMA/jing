@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* css document*/
+body{
+    overflow-x: hidden;
+	font-family: "Microsoft YaHei";
+}
+a img{display: block;opacity:1; filter:alpha(opacity=100);-webkit-transition: opacity .2s ease-in-out;-moz-transition: opacity .2s ease-in-out;-o-transition: opacity .2s ease-in-out;-ms-transition: opacity .2s ease-in-out;transition: opacity .2s ease-in-out;}
+a:hover img{opacity:0.75; filter:alpha(opacity=75);}
+img{ width: 100%;}
+.top{ width: 100%; background: #333333;}
+.top .container1{ max-width: 1000px; min-width: 320px; margin: 0 auto;}
+.top .container1 header>.logo{ width: 171px; padding-top: 11px; float: left; margin-right: 80px;}
+.top .container1 header>nav{ width: 730px; float: left;}
+.top .container1 header>nav>ul li{ width: 94px; float: left; line-height: 80px; height: 80px; text-align: center;}
+.top .container1 header>nav>ul li:nth-of-type(1){ width: 65px;}
+.top .container1 header>nav>ul li:nth-of-type(4){ background: #5c5c5c;}
+.top .container1 header>nav>ul li>a{ color: #fdfdff; font-size: 14px; display: block; font-family: "Microsoft YaHei";}
+.top .container1 header>nav>ul li:hover a{ background: #5c5c5c;}
+.concent{ width: 100%;}
+.concent .container2{ max-width: 1000px; min-width: 320px; margin: 0 auto;}
+.container2>aside{ width: 240px; border-right: 1px solid #bbb; float: left; margin-top: 40px;}
+.container2>aside>ul{ width: 220px;}
+.container2>aside>ul li{ height: 77px; border-bottom: 3px solid white;}
+.container2>aside>ul li:nth-of-type(1){ background: url(../img/jx2.gif) no-repeat 15px 15px;}
+.container2>aside>ul li:nth-of-type(2){ background: url(../img/hysx2.gif) no-repeat 15px 23px;}
+.container2>aside>ul li:nth-of-type(3){ background: url(../img/qwyd2.gif) no-repeat 15px 20px;}
+.container2>aside>ul li:nth-of-type(4){ background: url(../img/dxssx1.gif) no-repeat 15px 20px;}
+.container2>aside>ul li:nth-of-type(5){ background: url(../img/hjby2.gif) no-repeat 15px 25px;}
+.container2>aside>ul li:nth-of-type(6){ background: url(../img/wh2.gif) no-repeat 15px 15px;}
+.container2>aside>ul li:nth-of-type(1):hover{ background: url(../img/jx1.gif) no-repeat 15px 15px;}
+.container2>aside>ul li:nth-of-type(2):hover{ background: url(../img/hysx1.gif) no-repeat 15px 23px;}
+.container2>aside>ul li:nth-of-type(3):hover{ background: url(../img/qwyd1.gif) no-repeat 15px 20px;}
+.container2>aside>ul li:nth-of-type(5):hover{ background: url(../img/hjby1.gif) no-repeat 15px 25px;}
+.container2>aside>ul li:nth-of-type(6):hover{ background: url(../img/wh1.gif) no-repeat 15px 15px;}
+.container2>aside>ul li>a{ height: 77px; line-height: 77px;  display: block; width: 200px; font-size: 24px; padding-left: 70px; color: #222;}
+.container2>aside>ul li:nth-of-type(4){ border-bottom: 3px solid #fa9634; }
+.container2>aside>ul li:hover{ border-bottom: 3px solid #fa9634;}
+.container2>section{ width: 690px; margin-left: 50px; padding-bottom: 191px; float: left; margin-top: 40px;}
+.slider7{ display: none;}
+.bx-pager{ display: none;}
+.c{overflow:hidden;width:690px;margin:0 auto;background-color:#FFFFFF; height:490px;}
+.c1{height: 490px;margin:20px 0;*overflow:hidden;}
+.c1_l{float: left;width: 690px;height: 490px;}
+.c1_slide{width: 690px;height: 400px;position: relative;overflow: hidden;}
+.c1_slide ul{width: 3500px;height: 400px;position: absolute;top: 0;left: 0;}
+.c1_slide li{float: left;width: 694px;height: 100%;position: relative;}
+.c1_paging{width: 100%;height: 91px;background: url(../img/r.png) repeat-x 0 0;}
+.c1_paging ul{}
+.c1_paging li{float: left;width: 136px;height: 91px;margin:0 1px;position: relative;}
+.c1_paging li.active i{display:block;position:absolute;top:-9px;left:-1;height:101px;width:136px;background: url(../img/i_i.png) no-repeat 0 0;}
+.c1_paging li:hover b,.c1_paging li.active b{display: none;}
+.c1_paging li img,.c1_paging li b{position: absolute;top:13px;left: 13px;}
+.c1_paging li b{background: url(../img/opacity.png) no-repeat 0 0;width:110px;height: 65px;}
+.c1_paging li img{ display: block; width: 110px; height: 65px;}
+section>p{font-size: 16px; line-height: 30px; text-indent: 32px;}
+footer{ width: 100%; background: #333333;}
+footer .container3{ max-width: 1000px; min-width: 320px; margin: 0 auto;}
+.container3>ul li{ float: left; width: 220px; padding-top: 40px; padding-bottom: 91px; line-height: 29px;}
+.container3>ul li:nth-of-type(4){ width: 265px;}
+.container3>ul li>span{ color:#FFF ; font-size:14px; text-align: left; display: block;}
+@media screen and (max-width:1000px ) and (min-width:720px) {
+.top .container1 header>.logo{ width: 17.1%; padding-top: 1.5%; float: left; margin-right: 7.5%; margin-left: 4%;}
+.top .container1 header>nav{  width: 70%;}	
+.top .container1 header>nav>ul li{ width: 12%; float: left;  text-align: center;}
+.top .container1 header>nav>ul li:nth-of-type(1){ width: 8.5%;}
+.top .container1 header>nav>ul li:hover a{ background: none;}
+.container2>aside{ clear: both; border-right: none; width: 100%;}
+.container2>aside>ul{ width: 90%; padding-left: 5%; padding-right: 5%;}
+.container2>aside>ul li{ float: left; width: 33.3%; margin: 0 auto;}
+.container2>aside>ul li>a{ text-align: center; padding-left: none; font-size: 22px;}
+.container2>section{ width: 94.5%; clear: both; padding-left: 3%; padding-right: 2.5%; margin-left: 0px; margin-top: 2.5%; padding-bottom: 19%;}
+section>.div{ display: none;}
+.slider7{ display: block; width: 100%;}
+.bx-pager{ display: block;}
+.container3>ul{ width: 90%; padding-right: 5%; padding-left: 5%;}
+.container3>ul li{ width: 50%; padding-bottom: 0; padding-top: 0;}
+.container3>ul li>span{ display: block; margin-left: 67px;}
+.container3>ul li:nth-of-type(1){ padding-top: 4.9%; padding-bottom: 3.5%;  }
+.container3>ul li:nth-of-type(2){ padding-top: 4.9%; padding-bottom: 3.5%;}
+.container3>ul li:nth-of-type(3){ padding-top: 0; padding-bottom: 3.5%; }
+.container3>ul li:nth-of-type(4){ padding-top: 0; padding-bottom: 3.5%;}
+.container3>ul li:nth-of-type(4){ width:50%;}
+}
+@media screen and (max-width:720px ) and (min-width:480px) {
+.top .container1 header>.logo{ width: 23%; padding-top: 1.5222%; float: left; margin-left: 4%;}
+.top .container1 header{ position: relative;}
+.top .container1 header>nav{ display: none;}
+.top .container1 header>.design{ display: block; position: absolute; top: 40%; left: 47%; color: #FFFFFF; font-size: 16px;}	
+.top .container1 header>.pop_button{ display: block;  width: 25px; height: 15px; position: relative; position: absolute; top: 40%; right: 10%; cursor: pointer;}
+.top .container1>.nav>ul{ width: 100%;}
+.top .container1>.nav>ul li{ width:25% ; float: left; text-align: center; margin-bottom: 10px;}
+.top .container1>.nav>ul li>a{ display: block; color: #9D9D89; font-size: 14px;}
+.top .container1>.nav>ul li>a:hover{ color: #FFFFFF;}
+.container2>aside{ clear: both; border-right: none; width: 100%;}
+.container2>aside>ul{ width: 91%; padding-left: 7%; padding-right: 2%;}
+.container2>aside>ul li{ float: left; width: 32%; margin: 0 auto 20px auto;}
+.container2>aside>ul li>a{  padding-left:0px; text-align: center; width: 100%; display: block; font-size: 20px;}
+.container2>section{ width: 94.5%; clear: both; padding-left: 3%; padding-right: 2.5%; margin-left: 0px; margin-top: 2.5%; padding-bottom: 18%;}
+section>.div{ display: none;}
+.slider7{ display: block; width: 100%;}
+.bx-pager{ display: block;}
+.container3>ul{ width:95%; padding:0 0 0 5%;}
+.container3>ul>li{ width:40%; padding:20px 0;}
+.container3>ul>li:nth-of-type(1),.container3>ul>li:nth-of-type(2){padding:30px 0 0 0;}
+.container3>ul li:nth-of-type(2n){width:60%;}
+}
+
+@media screen and (max-width:760px) {
+	.container2>aside>ul li>a{ padding:20px 0 0 0px;}
+	.container2>aside>ul li:nth-of-type(1){ background: url(../img/jx2.gif) no-repeat center top;}
+	.container2>aside>ul li:nth-of-type(2){ background: url(../img/hysx2.gif) no-repeat center top;}
+	.container2>aside>ul li:nth-of-type(3){ background: url(../img/qwyd2.gif) no-repeat center top;}
+	.container2>aside>ul li:nth-of-type(4){ background: url(../img/dxssx1.gif) no-repeat center top;}
+	.container2>aside>ul li:nth-of-type(5){ background: url(../img/hjby2.gif) no-repeat center top;}
+	.container2>aside>ul li:nth-of-type(6){ background: url(../img/wh2.gif) no-repeat center top;}
+	.container2>aside>ul li:nth-of-type(1):hover{ background: url(../img/jx1.gif) no-repeat center top;}
+	.container2>aside>ul li:nth-of-type(2):hover{ background: url(../img/hysx1.gif) no-repeat center top;}
+	.container2>aside>ul li:nth-of-type(3):hover{ background: url(../img/qwyd1.gif) no-repeat center top;}
+	.container2>aside>ul li:nth-of-type(5):hover{ background: url(../img/hjby1.gif) no-repeat center top;}
+	.container2>aside>ul li:nth-of-type(6):hover{ background: url(../img/wh1.gif) no-repeat center top;}
+}
+
+@media screen and (max-width:480px) {
+.top .container1 header>.logo{ width: 24%; padding-top: 1.4%; float: left; margin-left: 4%;}
+.top .container1 header{ position: relative;}
+.top .container1 header>nav{ display: none;}
+.top .container1 header>.design{ display: block; position: absolute; top: 29%; left: 47%; color: #FFFFFF; font-size: 16px;}	
+.top .container1 header>.pop_button{ display: block;  width: 25px; height: 15px; position: relative; position: absolute; top: 29%; right: 10%; cursor: pointer;}
+.top .container1>.nav>ul{ width: 100%;}
+.top .container1>.nav>ul li{ width:25% ; float: left; text-align: center; margin-bottom: 10px;}
+.top .container1>.nav>ul li>a{ display: block; color: #9D9D89; font-size: 14px;}
+.top .container1>.nav>ul li>a:hover{ color: #FFFFFF;}
+.container2>aside{ clear: both; border-right: none; width: 100%;}
+.container2>aside>ul{ width: 96%; padding-left: 2%; padding-right: 2%;}
+.container2>aside>ul li{ float: left; width: 48%; margin: 0 auto 10px auto;}
+.container2>aside>ul li>a{  padding-left:0px; text-align: center; width: 100%; display: block; font-size: 20px;}
+.container2>section{ width: 94%; clear: both; padding-left:3%; padding-right: 1%; margin-left: 0px; margin-top: 2.5%; padding-bottom: 17%;}
+section>.div{ display: none;}
+.slider7{ display: block; width: 100%;}
+.bx-pager{ display: block;}
+.container3>ul{ margin-left: 25%;}
+.container3>ul li{ width: 100%;}
+.container3>ul li:nth-of-type(1){ padding-top: 20px; padding-bottom: 2%;}
+.container3>ul li:nth-of-type(2){ padding-top: 0; padding-bottom: 2%;}
+.container3>ul li:nth-of-type(3){ padding-top: 0; padding-bottom: 2%;}
+.container3>ul li:nth-of-type(4){ padding-top: 0; padding-bottom: 20px;}	
+}
